@@ -50,7 +50,7 @@ NOTE: increase the resources and see, no new nodes are coming eventhough we defi
 
 eksctl create cluster --name my-demo-cluster \
    --region us-east-1 \
---node-type t2.small \
+--node-type t2.medium \
 --nodes-min 2 \
 --nodes-max 4
 
